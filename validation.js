@@ -107,7 +107,7 @@ function myFunction(){
     //        document.myForm.zip.focus();
     //        return false;
     //    }
-    var pat1 = "^\d{6}$";
+    var pat1 = ^\d{6}$;
     var pin_code = document.getElementById("zip");
     if (!pat1.test(pin_code.value)) {
        alert("Pin code should be 6 digits ");
